@@ -39,7 +39,7 @@ async def addCap(chnl_id, caption):
 async def updateCap(chnl_id, caption):
     await chnl_ids.update_one({"chnl_id": chnl_id}, {"$set": {"caption": caption}})
 
-# Rkn Developer 
+# codex Developer 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
+# Telegram Channel @Codexownerr & @codexbotmaker
+# Developer @Codexownerr
