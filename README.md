@@ -70,4 +70,4 @@ broadcast - sᴇɴᴅ ᴍᴀssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs (ᴀᴅᴍɪɴ 
 * [![Updates](https://img.shields.io/static/v1?label=Updates&message=Channel&color=critical)](https://t.me/codexbotmaker)
 
 ## Credits 
-* [![codexDeveloper](https://img.shields.io/static/v1?label=Rkn&message=Developer&color=critical)](https://t.me/codexbotmaker)
+* [![codexDeveloper](https://img.shields.io/static/v1?label=codex&message=Developer&color=critical)](https://t.me/codexbotmaker)
