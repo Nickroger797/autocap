@@ -66,12 +66,12 @@ async def start_cmd(bot, message):
     user_id = int(message.from_user.id)
     await insert(user_id)
     await message.reply_photo(photo=Rkn_Bots.RKN_PIC,
-        caption=f"<b>Hey, {message.from_user.mention}\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/set_caption</code> to set caption\nUse<code>/delcaption</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only</b>",
+        caption=f"<b>Hey, {message.from_user.mention}\n\n🪩 I'm an auto-caption bot.✨ I automatically edit captions for 📷videos,🔉 audio files, and 📂documents posted on channels.\n\n🤔 If you don't know how to use this bot.\n\n🥷 Then click on how to use button.\n\n🧊 Note:All commands works on channels only</b>",
         reply_markup=types.InlineKeyboardMarkup([[
-            types.InlineKeyboardButton('Main Channel', url='https://t.me/RknDeveloper'),
-            types.InlineKeyboardButton('Help Group', url='https://t.me/Rkn_Bots_Support')
+            types.InlineKeyboardButton('🪄 Main Channel 🪄', url='https://t.me/codexbotmaker'),
+            types.InlineKeyboardButton('🪃 Help Group 🪃', url='https://t.me/codexdisscus')
             ],[
-            types.InlineKeyboardButton('🔥 Source Code 🔥', url='https://github.com/RknDeveloper/Rkn-AutoCaptionBot')
+            types.InlineKeyboardButton('🔮 How to use bot 🔮', url='https://t.me/codexbotmaker/55')
     ]]))
     
 
@@ -89,10 +89,10 @@ async def setCaption(bot, message):
     chkData = await chnl_ids.find_one({"chnl_id": chnl_id})
     if chkData:
         await updateCap(chnl_id, caption)
-        return await message.reply(f"Successfully Updated Your Caption.\n\nYour New Caption: `{caption}`")
+        return await message.reply(f"✅ Successfully Updated Your Caption.\n\n🗻 Your New Caption: `{caption}`")
     else:
         await addCap(chnl_id, caption)
-        return await message.reply(f"Successfully Updated Your Caption.\n\nYour New Caption: `{caption}`")
+        return await message.reply(f"✅ Successfully Updated Your Caption.\n\n🗻 Your New Caption: `{caption}`")
 
 
 # this command works on channels only 
@@ -101,7 +101,7 @@ async def delCaption(_, msg):
     chnl_id = msg.chat.id
     try:
         await chnl_ids.delete_one({"chnl_id": chnl_id})
-        return await msg.reply("<b>Successfully deleted your caption..From now i will use my default caption</b>")
+        return await msg.reply("<b>✅ Successfully deleted your caption..From now i will use my default caption</b>")
     except Exception as e:
         rkn = await msg.reply(f"Error: {e}")
         await asyncio.sleep(5)
@@ -150,7 +150,6 @@ async def auto_edit_caption(bot, message):
                     continue
     return
 
-# Rkn Developer 
+# codex
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
+# Telegram Channel @codexbotmaker
