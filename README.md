@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg" alt="logo" target="/blank">
+<img src="https://i.imgur.com/Cnz8PF8.jpeg" alt="logo" target="/blank">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h1 align= center>Auto Caption Bot</h1>
@@ -13,18 +13,18 @@
 
 <details><summary>📌 Deploy to Koyeb </summary>
   
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/RknDeveloper/Rkn-AutoCaptionBot&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_NAME]&env[DB_URI]&env[FORCE_SUB]&env[RKN_PIC]=https://graph.org/file/f6c15009bce07058f1edb.jpg&env[DEF_CAP]&run_command=python%20bot.py&branch=main&name=Rkn-AutoCaptionBot) 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Nickroger797/autocap&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_NAME]&env[DB_URI]&env[FORCE_SUB]&env[RKN_PIC]=https://graph.org/file/f6c15009bce07058f1edb.jpg&env[DEF_CAP]&run_command=python%20bot.py&branch=main&name=Rkn-AutoCaptionBot) 
 </details>
 
 <details><summary>📌 Deploy to Render </summary>
   
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/RknDeveloper/Rkn-AutoCaptionBot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Nickroger797/autocap)
 
 </details>
   
 <details><summary>📌 Deploy to Heroku </summary>
   
-<a href="https://heroku.com/deploy?template=https://github.com/RknDeveloper/Rkn-AutoCaptionBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Nickroger797/autocap"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
 </details>
 
 <details><summary>📌 Deploy to Railway </summary>
@@ -66,8 +66,8 @@ broadcast - sᴇɴᴅ ᴍᴀssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs (ᴀᴅᴍɪɴ 
 ```
 
 ## Support
-* [![Support](https://img.shields.io/static/v1?label=Support&message=Group&color=critical)](https://t.me/Rkn_Bots_Support)
-* [![Updates](https://img.shields.io/static/v1?label=Updates&message=Channel&color=critical)](https://t.me/Rkn_Bots)
+* [![Support](https://img.shields.io/static/v1?label=Support&message=Group&color=critical)](https://t.me/codexdisscus)
+* [![Updates](https://img.shields.io/static/v1?label=Updates&message=Channel&color=critical)](https://t.me/codexbotmaker)
 
 ## Credits 
-* [![RknDeveloper](https://img.shields.io/static/v1?label=Rkn&message=Developer&color=critical)](https://t.me/RknDeveloper)
+* [![codexDeveloper](https://img.shields.io/static/v1?label=Rkn&message=Developer&color=critical)](https://t.me/codexbotmaker)
